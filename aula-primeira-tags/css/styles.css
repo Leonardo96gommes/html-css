@@ -47,8 +47,6 @@ p {
   color: #000000;
 }
 
-
-
 .card {
   display: grid;
   grid-template-columns: 250px 1fr;
@@ -68,14 +66,14 @@ p {
   width: 100%;
   position: fixed;
   top: 0px;
-  background-color: #091129;
+  background-color: #000000;
   padding: 2rem;
   border: 1px;
   border-radius: 2px;
 }
 
 .footer {
-  background-color: #091129;
+  background-color: #000000;
   padding: 1rem;
   border: 2px solid black;
 }
@@ -96,8 +94,8 @@ main {
 }
 
 .li {
-  width: 280px;
-  height: 10px;
+  width: 200px;
+  gap: 10px;
   display: flex;
   justify-content: space-between;
   list-style: none;
