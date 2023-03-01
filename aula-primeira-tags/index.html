@@ -11,43 +11,52 @@
 </head>
 
 <body>
-  <header>
-    <nav class="nav">
-      <h1>Loja Top</h1>
-      <ul>
-        <li><a href="#categories">Categorias</a></li>
-        <li><a href="#titles">Títulos</a></li>
-        <li><a href="#about">Sobre nós</a></li>
-      </ul>
-    </nav>
+
+  <header id="home">
+    <div>
+      <nav class="nav">
+        <div class="topnav">
+          <h1 class="logo"><a href="#home">Loja Top</a></h1>
+          <div>
+            <ul class="li">
+              <li><a href="#book">Categoria de Livros</a></li>
+              <li><a href="#about">Sobre nós</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </div>
   </header>
-  <main>
-    <section id="categories">
-      <h2 class="orange">Categorias</h2>
-      <ul>
-        <li>Fantasia</li>
-        <li>Educação</li>
-      </ul>
-    </section>
-    <section id="titles">
+
+  <main   id="book">
+    <div class="corpo">
+
       <div class="card">
-        <h2>Títulos</h2>
-        <img src="/img/book1.jpg" alt="O senhor dos anéis">
         <div>
-          <h3 class="orange">O senhor dos anéis</h3>
+          <img src="/img/book1.jpg" alt="O senhor dos anéis" width="200" height="200">
+        </div>
+
+        <div class="card1">
+          <h3>O senhor dos anéis</h3>
           <p>Navegue por esta grande aventura</p>
           <p><span>R$</span> 389.99</p>
         </div>
       </div>
 
       <div class="card">
-        <img src="/img/book2.jpg" alt="Rails for dummies">
         <div>
-          <h3 class="orange">Rails for dummies</h3>
-          <p>Aprenda esta fantastica ferramenta</p>
-          <p><span>R$</span> 250.49</p>
+          <img src="/img/book2.jpg" alt="O senhor dos anéis" width="200" height="200">
+        </div>
+
+        <div class="card1">
+          <h3>Ruby on Rails</h3>
+          <p>Aprenda a programar em Ruby</p>
+          <p><span>R$</span> 289.99</p>
         </div>
       </div>
+    </div>
+
     </section>
     <section id="about">
       <div>
@@ -60,10 +69,11 @@
       </div>
     </section>
   </main>
+
   <footer class="footer">
     <div>
       <div>
-        <h2>siga-nos</h2>
+        <h2>Siga-nos</h2>
         <a href="https://www.youtube.com/@DevSuperior">Youtube</a>
         <a href="https://www.instagram.com/devsuperior.ig/">Instagram</a>
       </div>

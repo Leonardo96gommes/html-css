@@ -1,14 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
-h1 , h2 {
-  color: rgb(0, 0, 0);
+a {
+  text-decoration: none;
+  color: #4329b6;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+h1,
+h2 {
+  color: #4329b6;
 }
 
 h1:hover {
-  color: aqua;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -16,30 +29,82 @@ p {
   color: rgb(190, 13, 13);
 }
 
-.orange:hover{
-  color: rgb(0, 0, 0);
+.hover-categories:hover {
+  display: flex;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
 }
 
-.orange {
-  color: rgb(5, 5, 5);
+.n-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card img {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 20px;
-  padding: 10px;
+.n-categories:hover {
+  color: #000000;
+}
 
+
+
+.card {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+.card1 {
+  align-self: center;
+}
+
+.card2 {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  align-self: center;
 }
 
 .nav {
-  background-color: rgb(190, 13, 13);
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #091129;
+  padding: 2rem;
+  border: 1px;
+  border-radius: 2px;
+}
+
+.footer {
+  background-color: #091129;
   padding: 1rem;
   border: 2px solid black;
 }
 
-.footer {
-  background-color: rgb(190, 13, 13);
-  padding: 1rem;
-  border: 2px solid black;
+main {  
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.logo {
+  white-space: nowrap;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li {
+  width: 280px;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  white-space: nowrap;
+  color: #4329b6;
+}
+
+.corpo {
+  margin-top: 10rem;
 }
