@@ -3,7 +3,8 @@
 * {
   box-sizing: border-box;
   margin: 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
 }
 
 html {
@@ -31,6 +32,7 @@ h1:hover {
 
 p {
   color: rgb(190, 13, 13);
+  font-weight: 100;
 }
 
 .hover-categories:hover {
@@ -54,6 +56,7 @@ p {
 .card {
   display: grid;
   grid-template-columns: 250px 1fr;
+  padding-bottom: 20px;
 }
 
 .card1 {
@@ -64,6 +67,7 @@ p {
   display: grid;
   grid-template-columns: 250px 1fr;
   align-self: center;
+  margin-bottom: 10px;
 }
 
 .nav {
@@ -89,7 +93,7 @@ p {
 
 main {  
   background-color: #fff;
-  padding: 20px;
+  padding-top: 10px;
 }
 
 .logo {
@@ -113,17 +117,25 @@ main {
 }
 
 .corpo {
-  margin-top: 10rem;
+  margin-top: 8rem;
+  
 }
 
 
 .bottom {
   display: flex;
   background-color: #4329b6;
-  color: white;
+  color: rgb(0, 0, 0);
   border: none;
+  font-weight: 600;
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+  opacity: 0.9; /* define a transparência em 50% */
+}
+
+.about {
+  padding: 20px;
+  background-color: #131212;
 }
