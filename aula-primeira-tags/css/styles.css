@@ -61,6 +61,7 @@ p {
 
 .card1 {
   align-self: center;
+  text-align: left;
 }
 
 .card2 {
@@ -117,6 +118,7 @@ main {
 }
 
 .corpo {
+  margin-left: 200px;
   margin-top: 8rem;
   
 }
@@ -137,5 +139,6 @@ main {
 
 .about {
   padding: 20px;
-  background-color: #131212;
+  background-color: #000000;
+  text-align: center;
 }
